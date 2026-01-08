@@ -1,0 +1,29 @@
+type: bq.seed
+description: Raw payment transaction events from Stripe
+
+parameters:
+    path: stripe_billing_history.csv
+
+columns:
+  - name: payment_id
+    type: STRING
+    description: Unique payment identifier
+    primary_key: true
+  - name: company_id
+    type: STRING
+    description: Company identifier
+  - name: payment_date
+    type: DATE
+    description: When payment was attempted
+  - name: amount
+    type: INTEGER
+    description: Payment amount ($)
+  - name: status
+    type: STRING
+    description: Payment status (succeeded/failed)
+  - name: payment_method
+    type: STRING
+    description: Payment method (credit_card/invoice/wire_transfer)
+  - name: invoice_id
+    type: STRING
+    description: Associated invoice identifier

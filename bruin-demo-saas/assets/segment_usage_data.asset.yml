@@ -1,0 +1,26 @@
+type: bq.seed
+description: Raw product usage events from Segment
+
+parameters:
+    path: segment_usage_data.csv
+
+columns:
+  - name: event_id
+    type: STRING
+    description: Unique event identifier
+    primary_key: true
+  - name: company_id
+    type: STRING
+    description: Company identifier
+  - name: user_id
+    type: STRING
+    description: User identifier
+  - name: event_type
+    type: STRING
+    description: Event type (login/feature_use)
+  - name: event_timestamp
+    type: TIMESTAMP
+    description: When the event occurred
+  - name: feature_used
+    type: STRING
+    description: Feature accessed (dashboard/reports/integrations/workflows/api_console)

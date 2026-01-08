@@ -1,0 +1,21 @@
+company_id,deal_name,deal_stage,renewal_date,contract_start_date,arr_value,plan_tier,owner_email
+C_ACME_01,Acme Enterprise,Closed Won,2026-02-15,2024-02-15,60000,Growth,sarah@bruin.com
+C_GLOBEX_22,Globex Growth,Closed Won,2026-09-10,2025-03-10,15000,Starter,mike@bruin.com
+C_STARK_44,Stark Industries Deal,Closed Won,2026-02-01,2024-02-01,250000,Enterprise,sarah@bruin.com
+C_WAYNE_55,Wayne Tech Partnership,Closed Won,2026-11-20,2023-11-20,90000,Enterprise,sarah@bruin.com
+C_PIED_99,Pied Piper Mid-Market,Closed Won,2026-03-15,2025-06-15,24000,Starter,mike@bruin.com
+C_UMBRELLA,Umbrella Corp Enterprise,Closed Won,2026-05-12,2024-05-12,110000,Enterprise,tom@bruin.com
+C_HULI_INC,Huli Global Expansion,Closed Won,2026-02-28,2024-08-28,85000,Growth,tom@bruin.com
+C_MASSIVE_D,Massive Dynamic Growth,Closed Won,2026-08-01,2024-08-01,45000,Growth,mike@bruin.com
+C_OSCORP_0,Oscorp Biotech Deal,Closed Won,2026-03-10,2025-03-10,35000,Growth,sarah@bruin.com
+C_VEIDT_ENT,Veidt Global Agreement,Closed Won,2026-12-01,2023-12-01,120000,Enterprise,tom@bruin.com
+C_INITECH_1,Initech Base Package,Closed Won,2026-03-05,2025-09-05,18000,Starter,mike@bruin.com
+C_SOYLENT_G,Soylent Green Deal,Closed Won,2026-07-20,2025-01-20,22000,Growth,tom@bruin.com
+C_TYRELL_CP,Tyrell Replicants,Closed Won,2026-02-10,2024-02-10,180000,Enterprise,sarah@bruin.com
+C_VANDELAY,Vandelay Starter,Closed Won,2026-09-05,2025-09-05,10000,Starter,mike@bruin.com
+C_ENRON_RIP,Enron Residual,At Risk,2026-02-20,2025-08-20,5000,Starter,tom@bruin.com
+C_STERLING,Sterling Cooper Ads,Closed Won,2026-10-15,2024-04-15,75000,Growth,sarah@bruin.com
+C_STRICKLD,Strickland Propane,Closed Won,2026-03-25,2025-10-25,12000,Starter,mike@bruin.com
+C_D_MIFFLIN,Dunder Mifflin Paper,Closed Won,2026-06-18,2024-12-18,32000,Growth,tom@bruin.com
+C_S_VALLEY,Silicon Valley Startup,Closed Won,2026-03-12,2025-09-12,20000,Starter,mike@bruin.com
+C_BLUTH_CO,Bluth Company Housing,At Risk,2026-08-30,2025-02-28,14000,Starter,tom@bruin.com

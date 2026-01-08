@@ -1,0 +1,29 @@
+type: bq.seed
+description: Customer master data with company info, industry, and tier
+
+parameters:
+    path: companies.csv
+
+columns:
+  - name: company_id
+    type: STRING
+    description: Unique company identifier
+    primary_key: true
+  - name: company_name
+    type: STRING
+    description: Company name
+  - name: industry
+    type: STRING
+    description: Industry vertical
+  - name: employee_count
+    type: INTEGER
+    description: Company size
+  - name: region
+    type: STRING
+    description: Geographic region
+  - name: customer_since
+    type: DATE
+    description: First contract date
+  - name: tier
+    type: STRING
+    description: Customer tier (Enterprise/Growth/Starter)

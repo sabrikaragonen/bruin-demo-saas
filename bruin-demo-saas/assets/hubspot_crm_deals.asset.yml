@@ -1,0 +1,32 @@
+type: bq.seed
+description: Sales deals and renewal pipeline from HubSpot CRM
+
+parameters:
+    path: hubspot_crm_deals.csv
+
+columns:
+  - name: company_id
+    type: STRING
+    description: Company identifier
+    primary_key: true
+  - name: deal_name
+    type: STRING
+    description: Deal name
+  - name: deal_stage
+    type: STRING
+    description: Deal stage (Closed Won/At Risk)
+  - name: renewal_date
+    type: DATE
+    description: Contract renewal date
+  - name: contract_start_date
+    type: DATE
+    description: Contract start date
+  - name: arr_value
+    type: INTEGER
+    description: Annual Recurring Revenue ($)
+  - name: plan_tier
+    type: STRING
+    description: Plan tier (Enterprise/Growth/Starter)
+  - name: owner_email
+    type: STRING
+    description: Account owner email
