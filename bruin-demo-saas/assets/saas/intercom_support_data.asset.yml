@@ -2,7 +2,7 @@ type: bq.seed
 description: Raw support ticket events from Intercom
 
 parameters:
-    path: intercom_support_data.csv
+    path: ../../../../seed-data/saas/intercom_support_data.csv
 
 columns:
   - name: ticket_id

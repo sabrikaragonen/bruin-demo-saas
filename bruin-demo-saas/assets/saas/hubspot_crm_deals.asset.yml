@@ -2,7 +2,7 @@ type: bq.seed
 description: Sales deals and renewal pipeline from HubSpot CRM
 
 parameters:
-    path: hubspot_crm_deals.csv
+    path: ../../../../seed-data/saas/hubspot_crm_deals.csv
 
 columns:
   - name: company_id

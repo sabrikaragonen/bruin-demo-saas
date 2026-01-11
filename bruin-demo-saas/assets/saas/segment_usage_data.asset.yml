@@ -2,7 +2,7 @@ type: bq.seed
 description: Raw product usage events from Segment
 
 parameters:
-    path: segment_usage_data.csv
+    path: ../../../../seed-data/saas/segment_usage_data.csv
 
 columns:
   - name: event_id

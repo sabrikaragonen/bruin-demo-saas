@@ -2,7 +2,7 @@ type: bq.seed
 description: Customer master data with company info, industry, and tier
 
 parameters:
-    path: companies.csv
+    path: ../../../../seed-data/saas/companies.csv
 
 columns:
   - name: company_id
